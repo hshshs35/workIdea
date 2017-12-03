@@ -3,3 +3,13 @@
     height:100px;
     margin: auto
 }
+
+.jumbotron{
+    background-image: url('/img/dice.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
+#spButton{
+    transform: translate(0px, 100px);
+}
