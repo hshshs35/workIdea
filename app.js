@@ -19,7 +19,7 @@ const db = require('./config/database')
 
 //set up express
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 //mongodb configuration
 mongoose.Promise = global.Promise;
